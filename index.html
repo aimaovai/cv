@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--- this is the document type --->
+<html lang="en" dir="ltr">
+
+<head>
+  <!---holds info about webpage and tells browser how to handle page--->
+  <meta charset="utf-8">
+  <!---this give extra metadata to the html document. ie, let all text be encoded using the UTF8 encoding system--->
+  <title>Aima's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <!--- image src can be a url as well --->
+      <td><img src="aima.jpg" alt="Aima Ovai" height="180" width="140"></td>
+      <td><h1> Aima O. Ovai</h1>
+      <p><em><strong>Graduate Student at <a href="https://www.unt.edu">The University of North Texas</a></strong></em></p>
+      <p><em>BME Graduate Tutor, <strong><a href="https://biomedical.engineering.unt.edu">UNT Biomedical Eng. Dept</a></strong></em></p>
+      <!--- create a paragraph below the heading of the page and italicize/emphasize it --->
+      <p>I am an programmer and Full Stack web developer</p></td>
+    </tr>
+  </table>
+  <hr>
+  <h3><bold>Education</bold></h3>
+  <ul>
+    <!--- unordered list of items --->
+    <li><a href="https://www.unt.edu/">The University of North Texas</a>, Denton, Texas</li>
+    <ul>
+      <li><strong>Master of Science in Biomedical Engineering </strong><br><em>Minor: Computer Science</em></li>
+      <li><strong>Bachelor of Science in Biomedical Engineering</strong> <br><em>Minor: Computer Science <br>Minor: Mathematics</em></li>
+    </ul>
+    <li><a href="https://www.tccd.edu/">Tarrant County College</a>, Arlington, Texas</li>
+    <ul>
+      <li>Associate of Science Degree</li>
+    </ul>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table border="1px"> <!--- border and other styling can be excluded due to depreciated styling -->
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work/Title</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>May 2020 - Aug 2020</td>
+        <td>IT Intern at American Fmaily Insurance</td>
+      </tr>
+      <tr>
+        <td>Jun 2021 - Aug 2021</td>
+        <td>Graduate Intern at Dell Technologies</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Skills</h3>
+  <!-- this can also be done by nesting two tables inside a single table cell -->
+  <!--<table>
+    <tr cellspacing="10" border="1px">
+      <td>C++</td>
+      <td>&#11088;&#11088;&#11088;&#11088;</td>
+      <td>Python</td>
+      <td>&#11088;&#11088;&#11088;&#11088;</td>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>&#11088;&#11088;</td>
+      <td>Java</td>
+      <td>&#11088;</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>&#11088;</td>
+      <td>Adobe XD</td>
+      <td>&#11088;&#11088;&#11088;</td>
+    </tr>
+    <tr>
+      <td>Git</td>
+      <td>&#11088;&#11088;&#11088;</td>
+      <td>VS Code</td>
+      <td>&#11088;&#11088;&#11088;</td>
+    </tr>
+  </table> -->
+  <table>
+    <colgroup>
+      <col width="260px">
+      <col width="260px">
+    </colgroup>
+    <tr>
+      <td>
+        <table>
+          <colgroup>
+            <col width="250px">
+            <col width="250px">
+          </colgroup>
+          <tr>
+            <td>C++</td>
+            <td>&#11088;&#11088;&#11088;&#11088;</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>&#11088;&#11088;&#11088;&#11088;</td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <colgroup>
+            <col width="250px">
+            <col width="250px">
+          </colgroup>
+          <tr>
+            <td>Git</td>
+            <td>&#11088;&#11088;&#11088;</td>
+          </tr>
+          <tr>
+            <td>VS Code</td>
+            <td>&#11088;&#11088;&#11088;</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3><a href="hobbies.html">My Hobbies</a></h3>
+  <h3><a href="contact.html">Contact Me</a></h3>
+
+</body>
+
+</html>
